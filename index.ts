@@ -40,10 +40,10 @@ function trampoline(fn: Function): Function {
   };
 }
 
-const a = fib(1500);
-const b = _fib(1500)();
-console.log(Number.POSITIVE_INFINITY === a);
-console.log(b);
-console.log(fib(1476));
-console.log(fibonacci(1479));
-console.log(fib_crash(10))
+// const a = fib(1500);
+// const b = _fib(1500)();
+// console.log(Number.POSITIVE_INFINITY === a);
+// console.log(b);
+// console.log(fib(1476));
+// console.log(fibonacci(1479));
+// console.log(fib_crash(10))
